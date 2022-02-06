@@ -3,9 +3,11 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-
+h1 {
+    color: blue;
+}
 
 body {
     background-color: blueviolet;
-
 }
+
