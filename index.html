@@ -5,32 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JOE DUGAN</title>
-    <link rel="resetsheet" href="./assets.html/css/reset.css">
+    <link rel="resetsheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets.html/css/style.css">
+    <style type="text/css">
+        body { margin: 0;}
+    </style>
 
 </head>
 <body>
-    <header>
-        <h1>
-            Hello
-        </h1>
+    <header class="header">
+        <h2 id="title">
+            Hello, my name is <br> Joe Dugan <br> <br>
+            I want to become a <br>web developer.
+        </h2>
         <nav class="navigation">
-            <ul>
-                <li a href="https://www.google.com">home</li>
-                <li>work</li>
-                <li>bio</li>
-                <li>contact</li>
+            <ul style="list-style: none">
+                <li>home</li>
+                <li><a href="#work">work</a></li>
+                <li><a href="#bio">bio</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="work">
+            <h3 id="work">work  |   <a href="#title">home</a></h3><br>
+            <div id="project1">project one</div>
+            <div id="project2">project two</div>
+            <div id="project3">project three</div>
+            <div id="project4">sadfadsfasdf</div>
+            <div id="project5">aljkdhflajkhdfl</div>
 
         </section>
-        <section>
+        <section class="bio">
+            <h3 id="bio">bio  |   <a href="#title">home</a></h3><br>
 
         </section>
-        <section>
+        <section class="contact">
+            <h3 id="contact">contact  |   <a href="#title">home</a></h3><br>
 
         </section>
     </main>
