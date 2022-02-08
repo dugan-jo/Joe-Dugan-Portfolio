@@ -1,53 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JOE DUGAN</title>
-    <link rel="resetsheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets.html/css/style.css">
+    <link rel="resetsheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets.html/css/style.css" />
     <style type="text/css">
-        body { margin: 0;}
+      body {
+        margin: 0;
+      }
     </style>
+  </head>
+  <body>
+    <!-- start of header -->
+    <header class="header" id="title">
+    <div id="headerimage" style="background-image: url('https://images.unsplash.com/photo-1620046311691-5d93d65f69e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80');">
+      <nav class="navigation">
+        <ul style="list-style: none">
+          <li>home</li>
+          <li><a href="#work">work</a></li>
+          <li><a href="#bio">bio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+      <h2 id="titleText">
+        Hello, my name is <br />
+        Joe Dugan <br />
+        <br />
+        I want to become a <br />web developer. <br />
+        <br />
+        This is my portfolio.
+      </h2>
+      </div>
+  </header>
+    
+    <!-- end of header -->
 
-</head>
-<body>
-    <header class="header">
-        <h2 id="title">
-            Hello, my name is <br> Joe Dugan <br> <br>
-            I want to become a <br>web developer.
-        </h2>
-        
-        <nav class="navigation">
-            <ul style="list-style: none">
-                <li>home</li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#bio">bio</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-    </header>
+
+    <!-- start of main -->
     <main>
-        <section class="work">
-            <h3 id="work">work   <a href="#title">home</a></h3>
-            <div class="break"></div>
-            <div class="project"><a href="https://www.google.com" target="_blank">project one</a></div>
-            <div class="project"><a href="https://www.google.com" target="_blank">project two</a></div>
-            <div class="project"><a href="https://www.google.com" target="_blank">project three</a></div>
-            <div class="project"><a href="https://www.google.com" target="_blank">project four</a></div>
-            <div class="project"><a href="https://www.google.com" target="_blank">project five</a></div>
-            <div class="project"><a href="https://www.google.com" target="_blank">project six</a></div>
+      <!-- start of the work section with the projects -->
+      <section id="work" class="work">
+          <div1 id="workimage" style="background-image: url('https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=920&q=80');">
+            <nav id="worknav">
+                <ul style="list-style: none">
+                    <li><a href="#title">home</a></li>
+                  <li>work</a></li>
+                  <li><a href="#bio">bio</a></li>
+                  <li><a href="#contact">contact</a></li>
+                </ul>
+              </nav>
+        <div class="break"></div>
 
-        </section>
-        <section class="bio">
-            <h3 id="bio">bio  |   <a href="#title">home</a></h3><br>
+        <div2>
 
-        </section>
-        <section class="contact">
-            <h3 id="contact">contact  |   <a href="#title">home</a></h3><br>
+        <!-- project one section -->
+        <div class="project" id="Project1">
+          <h4>
+            project<br />one<br /><br />
+            this is a description of my first project
+          </h4>
+          <a href="https://www.google.com" target="_blank">
+            <button type="button">
+              <img
+                src="https://images.unsplash.com/photo-1643872661802-2eae2dcccada?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                alt="this is my first project, it is an image of the celing structure made of concrete"
+              />
+            </button>
+          </a>
+        
+        </div>
+        
 
-        </section>
+
+        <!-- project two section -->
+        <div class="project" id="project2">
+          <h4>
+            project two<br /><br />
+            this is a description of my first project
+          </h4>
+          <a href="https://www.google.com" target="_blank">
+            <button type="button">
+              <img
+                src="https://images.unsplash.com/photo-1635445249494-b100ce11a0ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1019&q=80"
+                alt="this is my second project, it is an image of the celing structure made of concrete"
+              /></button
+          ></a>
+        </div>
+
+        <!-- project three section -->
+        <div class="project" id="project3">
+          <h4>
+            project three<br /><br />
+            coming soon!
+          </h4>
+          <a href="https://www.google.com" target="_blank">
+            <button type="button">
+              <img
+                src="https://images.unsplash.com/photo-1563391017873-6e6beab67fed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt="this is my second project, it is an image of the celing structure made of concrete"
+              /></button
+          ></a>
+        </div>
+
+        <!-- project four section  -->
+        <div class="project" id="project4">
+          <h4>
+            project four<br /><br />
+            coming soon!
+          </h4>
+          <a href="https://www.google.com" target="_blank">
+            <button type="button">
+              <img
+                src="https://images.unsplash.com/photo-1563391017873-6e6beab67fed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt="this is my second project, it is an image of the celing structure made of concrete"
+              /></button
+          ></a>
+        </div>
+
+        <!-- project five section -->
+        <div class="project" id="project5">
+          <h4>
+            project five<br /><br />
+            coming soon!
+          </h4>
+          <a href="https://www.google.com" target="_blank">
+            <button type="button">
+              <img
+                src="https://images.unsplash.com/photo-1563391017873-6e6beab67fed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt="this is my second project, it is an image of the celing structure made of concrete"
+              /></button
+          ></a>
+        </div>
+
+        <!-- project six section -->
+        <div class="project" id="project6">
+          <h4>
+            project six<br /><br />
+            coming soon!
+          </h4>
+          <a href="https://www.google.com" target="_blank">
+            <button type="button">
+              <img
+                src="https://images.unsplash.com/photo-1563391017873-6e6beab67fed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt="this is my second project, it is an image of the celing structure made of concrete"
+              /></button
+          ></a>
+        </div>
+      </section>
+
+      <!-- biography section -->
+      <section id="bio" class="bio">
+        <ul style="list-style: none">
+          <li><a href="#title">home</a></li>
+          <li><a href="#work">work</a></li>
+          <li>bio</li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="break"></div>
+        <h2 style="font-size: 18px">
+          This is my biography. I am a human who was born on planet earth. I
+          will fill this out later
+          <ul>
+            <li>University of Houston, Bachelor of Architecture 2011</li>
+            <li>
+              L'Ecole nationale supérieure d'architecture de Paris-La Villette
+              (ENSAPLV), Masters of European Urban Planning and Design
+            </li>
+          </ul>
+        </h2>
+
+        <div id="bioimage">
+          <img
+            src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+            alt="this is me, Joseph Dugan."
+          />
+        </div>
+      </section>
+    </div2>
+    </div1>
+    </section>
+
+
+      <!-- contact section -->
+      <section id="contact" class="contact">
+        <div class="navigation">
+          <ul style="list-style: none">
+            <li><a href="#title">home</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#bio">bio</a></li>
+            <li>contact</li>
+          </ul>
+        </div>
+        <div class="break"></div>
+        <h4>
+          Email:<a href="mailto:joseph.michael.dugan@gmail.com"
+            >joseph.michael.dugan@gmail.com </a
+          ><br />
+          phone: 720 607 8306 <br />
+          github:
+          <a href="https://github.com/dugan-jo" target="_blank">dugan_jo </a>
+        </h4>
+      </section>
     </main>
-</body>
+  </body>
 </html>
