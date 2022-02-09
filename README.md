@@ -125,3 +125,6 @@ I have buttons that take you to external webpages
 
 
 # Portfolio
+
+
+Joe-Dugan-Portfolio.jpg
